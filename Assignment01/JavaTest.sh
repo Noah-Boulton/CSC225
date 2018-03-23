@@ -1,0 +1,33 @@
+#!/bin/bash  
+echo test 1
+java TripleSum data/HasTriple_10a.txt
+echo test 2
+java TripleSum data/HasTriple_10b.txt
+echo test 3
+java TripleSum data/HasTriple_1000a.txt
+echo test 4
+java TripleSum data/HasTriple_1000b.txt
+echo test 5
+java TripleSum data/HasTriple_10000a.txt
+echo test 6
+java TripleSum data/HasTriple_10000b.txt
+echo test 7
+java TripleSum data/HasTriple_1000000a.txt
+echo test 8
+java TripleSum data/HasTriple_1000000b.txt
+echo test 9 start of no triple tests
+java TripleSum data/NoTriple_10a.txt
+echo test 10
+java TripleSum data/NoTriple_10b.txt
+echo test 11
+java TripleSum data/NoTriple_1000a.txt
+echo test 12
+java TripleSum data/NoTriple_1000b.txt
+echo test 13
+java TripleSum data/NoTriple_10000a.txt
+echo test 14
+java TripleSum data/NoTriple_10000b.txt
+echo test 15
+java TripleSum data/NoTriple_1000000a.txt
+echo test 16
+java TripleSum data/NoTriple_1000000b.txt
