@@ -10,4 +10,4 @@ Program implements a java class PQ225 to practice designing, implementing and te
 
 ### Run - java PQ225 
 
-### Testing included in main file
+### Testing included in main file and written to pq_test.txt
