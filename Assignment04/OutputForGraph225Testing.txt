@@ -1,0 +1,55 @@
+Testing the generate method by making graphs of size 4-15 with random density.
+
+Reachability of given test graph: 1 1 1 1 1 1 
+
+Reachability of random test graph: 1 1 1 1 1 1 
+
+Connected components of given test graph: 1
+
+Connected components of random test graph: 1
+
+Testing the cycle detection method on given test graph.
+Output should be true: true
+
+Testing the cycle detection method on random test graph.
+true
+
+Testing the cycle detection method on test graph with no cycle.
+Output should be false: false
+
+Testing pre order method based on the example given.
+ 1  2  5  6 -1 -1 -1 
+ 0  2  5  6 -1 -1 -1 
+ 1  0  5  6 -1 -1 -1 
+ 4 -1 -1 -1 -1 -1 -1 
+ 3 -1 -1 -1 -1 -1 -1 
+ 2  1  0  6 -1 -1 -1 
+ 2  1  0  5 -1 -1 -1 
+
+Testing post order method based on the example given.
+ 5  6  2  1 -1 -1 -1 
+ 0  5  6  2 -1 -1 -1 
+ 0  1  5  6 -1 -1 -1 
+ 4 -1 -1 -1 -1 -1 -1 
+ 3 -1 -1 -1 -1 -1 -1 
+ 0  1  6  2 -1 -1 -1 
+ 0  1  5  2 -1 -1 -1 
+
+
+Testing pre order method based on random graph.
+ 1  3  6  4  5  2 -1 
+ 3  6  0  5  2  4 -1 
+ 1  3  6  0  5  4 -1 
+ 6  0  1  4  5  2 -1 
+ 1  3  6  0  5  2 -1 
+ 0  1  3  6  4  2 -1 
+ 0  1  3  4  5  2 -1 
+
+Testing post order method based on random graph.
+ 4 -1 -1 -1 -1 
+-1 -1 -1 -1 -1 
+ 4  0  3 -1 -1 
+ 4  0 -1 -1 -1 
+ 0 -1 -1 -1 -1 
+
+Making a 15 x 15 graph with density 3, printing to largeGraph.txt.
