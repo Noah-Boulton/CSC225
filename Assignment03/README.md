@@ -1,10 +1,6 @@
 # Assignment 3 for CSC 225- Algorithms and Data Structures I at UVic 
 
-Program implements a java class PQ225 to practice designing, implementing and testing priority queues with the following objectives:
-	Heap data structure
-	Priority queues
-  	Heapsort
-  	Random number generation
+Program implements a java class PQ225 to practice designing, implementing and testing priority queues with the following objectives: Heap data structure, Priority queues, Heapsort, and Random number generation.
 
 ### Compile - java PQ225.java
 
