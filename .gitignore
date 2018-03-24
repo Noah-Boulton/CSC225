@@ -1,3 +1,7 @@
 
 # Compiled class file
 *.class
+
+*.xlsx
+
+*.pdf
