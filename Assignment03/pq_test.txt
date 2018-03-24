@@ -1,0 +1,431 @@
+Testing the ranGen, makeHeap, insert, and heapsort metohds.
+
+Making a small heap of size 8.
+Checking if the heap is sorted after heapsort: true
+
+Making a small heap using the insert method.
+Checking if the heap is sorted after heapsort: true
+
+Making a heap of size 100.
+Checking if the heap is sorted after heapsort: true
+Size of the array: 100
+Comparisons for heapsort: 214
+
+Making a heap of size 1000.
+Checking if the heap is sorted after heapsort: true
+Size of the array: 1000
+Comparisons for heapsort: 3782
+
+Making a heap of size 10000.
+Checking if the heap is sorted after heapsort: true
+Size of the array: 10000
+Comparisons for heapsort: 53766
+
+Testing the deleteMin method. Making two equal heaps, sorting one
+and repeatedly deleting the min of the other.
+The deleteMin method should return the same sorted sequence as heapsort.
+The sequences are the same: true
+
+Testing the efficiency of the heapsort method
+by tracking the number of comparisons relative to the size of the heap.
+
+Heap of size: 10
+Number of comparisons: 5
+N log N: 10
+
+Heap of size: 20
+Number of comparisons: 21
+N log N: 26
+
+Heap of size: 30
+Number of comparisons: 39
+N log N: 44
+
+Heap of size: 40
+Number of comparisons: 53
+N log N: 64
+
+Heap of size: 50
+Number of comparisons: 82
+N log N: 84
+
+Heap of size: 60
+Number of comparisons: 99
+N log N: 106
+
+Heap of size: 70
+Number of comparisons: 127
+N log N: 129
+
+Heap of size: 80
+Number of comparisons: 154
+N log N: 152
+
+Heap of size: 90
+Number of comparisons: 174
+N log N: 175
+
+Heap of size: 100
+Number of comparisons: 212
+N log N: 200
+
+Heap of size: 110
+Number of comparisons: 227
+N log N: 224
+
+Heap of size: 120
+Number of comparisons: 272
+N log N: 249
+
+Heap of size: 130
+Number of comparisons: 306
+N log N: 274
+
+Heap of size: 140
+Number of comparisons: 325
+N log N: 300
+
+Heap of size: 150
+Number of comparisons: 362
+N log N: 326
+
+Heap of size: 160
+Number of comparisons: 378
+N log N: 352
+
+Heap of size: 170
+Number of comparisons: 411
+N log N: 379
+
+Heap of size: 180
+Number of comparisons: 451
+N log N: 405
+
+Heap of size: 190
+Number of comparisons: 482
+N log N: 432
+
+Heap of size: 200
+Number of comparisons: 527
+N log N: 460
+
+Heap of size: 210
+Number of comparisons: 561
+N log N: 487
+
+Heap of size: 220
+Number of comparisons: 574
+N log N: 515
+
+Heap of size: 230
+Number of comparisons: 618
+N log N: 543
+
+Heap of size: 240
+Number of comparisons: 654
+N log N: 571
+
+Heap of size: 250
+Number of comparisons: 691
+N log N: 599
+
+Heap of size: 260
+Number of comparisons: 734
+N log N: 627
+
+Heap of size: 270
+Number of comparisons: 762
+N log N: 656
+
+Heap of size: 280
+Number of comparisons: 775
+N log N: 685
+
+Heap of size: 290
+Number of comparisons: 801
+N log N: 714
+
+Heap of size: 300
+Number of comparisons: 850
+N log N: 743
+
+Heap of size: 310
+Number of comparisons: 895
+N log N: 772
+
+Heap of size: 320
+Number of comparisons: 921
+N log N: 801
+
+Heap of size: 330
+Number of comparisons: 952
+N log N: 831
+
+Heap of size: 340
+Number of comparisons: 970
+N log N: 860
+
+Heap of size: 350
+Number of comparisons: 1018
+N log N: 890
+
+Heap of size: 360
+Number of comparisons: 1050
+N log N: 920
+
+Heap of size: 370
+Number of comparisons: 1097
+N log N: 950
+
+Heap of size: 380
+Number of comparisons: 1154
+N log N: 980
+
+Heap of size: 390
+Number of comparisons: 1211
+N log N: 1010
+
+Heap of size: 400
+Number of comparisons: 1232
+N log N: 1040
+
+Heap of size: 410
+Number of comparisons: 1279
+N log N: 1071
+
+Heap of size: 420
+Number of comparisons: 1314
+N log N: 1101
+
+Heap of size: 430
+Number of comparisons: 1337
+N log N: 1132
+
+Heap of size: 440
+Number of comparisons: 1334
+N log N: 1163
+
+Heap of size: 450
+Number of comparisons: 1385
+N log N: 1193
+
+Heap of size: 460
+Number of comparisons: 1435
+N log N: 1224
+
+Heap of size: 470
+Number of comparisons: 1515
+N log N: 1255
+
+Heap of size: 480
+Number of comparisons: 1554
+N log N: 1286
+
+Heap of size: 490
+Number of comparisons: 1581
+N log N: 1318
+
+Heap of size: 500
+Number of comparisons: 1662
+N log N: 1349
+
+Heap of size: 510
+Number of comparisons: 1697
+N log N: 1380
+
+Heap of size: 520
+Number of comparisons: 1748
+N log N: 1412
+
+Heap of size: 530
+Number of comparisons: 1744
+N log N: 1443
+
+Heap of size: 540
+Number of comparisons: 1794
+N log N: 1475
+
+Heap of size: 550
+Number of comparisons: 1818
+N log N: 1507
+
+Heap of size: 560
+Number of comparisons: 1864
+N log N: 1538
+
+Heap of size: 570
+Number of comparisons: 1903
+N log N: 1570
+
+Heap of size: 580
+Number of comparisons: 1887
+N log N: 1602
+
+Heap of size: 590
+Number of comparisons: 1980
+N log N: 1634
+
+Heap of size: 600
+Number of comparisons: 2015
+N log N: 1666
+
+Heap of size: 610
+Number of comparisons: 2059
+N log N: 1699
+
+Heap of size: 620
+Number of comparisons: 2090
+N log N: 1731
+
+Heap of size: 630
+Number of comparisons: 2135
+N log N: 1763
+
+Heap of size: 640
+Number of comparisons: 2184
+N log N: 1795
+
+Heap of size: 650
+Number of comparisons: 2213
+N log N: 1828
+
+Heap of size: 660
+Number of comparisons: 2231
+N log N: 1860
+
+Heap of size: 670
+Number of comparisons: 2271
+N log N: 1893
+
+Heap of size: 680
+Number of comparisons: 2308
+N log N: 1926
+
+Heap of size: 690
+Number of comparisons: 2379
+N log N: 1958
+
+Heap of size: 700
+Number of comparisons: 2441
+N log N: 1991
+
+Heap of size: 710
+Number of comparisons: 2443
+N log N: 2024
+
+Heap of size: 720
+Number of comparisons: 2495
+N log N: 2057
+
+Heap of size: 730
+Number of comparisons: 2567
+N log N: 2090
+
+Heap of size: 740
+Number of comparisons: 2628
+N log N: 2123
+
+Heap of size: 750
+Number of comparisons: 2608
+N log N: 2156
+
+Heap of size: 760
+Number of comparisons: 2665
+N log N: 2189
+
+Heap of size: 770
+Number of comparisons: 2749
+N log N: 2222
+
+Heap of size: 780
+Number of comparisons: 2798
+N log N: 2255
+
+Heap of size: 790
+Number of comparisons: 2811
+N log N: 2289
+
+Heap of size: 800
+Number of comparisons: 2826
+N log N: 2322
+
+Heap of size: 810
+Number of comparisons: 2865
+N log N: 2355
+
+Heap of size: 820
+Number of comparisons: 2963
+N log N: 2389
+
+Heap of size: 830
+Number of comparisons: 2974
+N log N: 2422
+
+Heap of size: 840
+Number of comparisons: 3028
+N log N: 2456
+
+Heap of size: 850
+Number of comparisons: 3049
+N log N: 2490
+
+Heap of size: 860
+Number of comparisons: 3114
+N log N: 2523
+
+Heap of size: 870
+Number of comparisons: 3165
+N log N: 2557
+
+Heap of size: 880
+Number of comparisons: 3188
+N log N: 2591
+
+Heap of size: 890
+Number of comparisons: 3261
+N log N: 2624
+
+Heap of size: 900
+Number of comparisons: 3314
+N log N: 2658
+
+Heap of size: 910
+Number of comparisons: 3277
+N log N: 2692
+
+Heap of size: 920
+Number of comparisons: 3385
+N log N: 2726
+
+Heap of size: 930
+Number of comparisons: 3472
+N log N: 2760
+
+Heap of size: 940
+Number of comparisons: 3483
+N log N: 2794
+
+Heap of size: 950
+Number of comparisons: 3513
+N log N: 2828
+
+Heap of size: 960
+Number of comparisons: 3565
+N log N: 2862
+
+Heap of size: 970
+Number of comparisons: 3579
+N log N: 2897
+
+Heap of size: 980
+Number of comparisons: 3655
+N log N: 2931
+
+Heap of size: 990
+Number of comparisons: 3703
+N log N: 2965
+
+Heap of size: 1000
+Number of comparisons: 3757
+N log N: 3000
+
